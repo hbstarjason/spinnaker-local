@@ -1,5 +1,5 @@
-# Run Spinnaker on bare metal 
-You can run spinnaker on CentOS by docker-compose.
+# Run Spinnaker on bare metal With docker-compose
+You can run spinnaker on CentOS or Ubuntu by docker-compose.
 
 ## Quickstart
 Provision a VM with at least 16GB memory and 4 cores.
@@ -28,12 +28,12 @@ $ ssh -L 8084:localhost:8084 <remote-host>
 $ ssh -L 9000:localhost:9000 <remote-host>
 ```
 
-If your 
+If your VM only private_key is allowed to log in , Please do the following.
 
 ```bash
 $ vi ~/.ssh/config
 
-# Configure as the output say in: vagrant ssh-config
+# Configure as the output say in: vagrant ssh-config 
 
 Host  <spinnaker-vm name>
   HostName localhost
