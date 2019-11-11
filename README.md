@@ -7,8 +7,8 @@ Provision a VM with at least 16GB memory and 4 cores.
 ```bash
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 $ sudo chmod +x /usr/local/bin/docker-compose
-$ git clone https://github.com/songrgg/spinnaker-compose
-$ cd spinnaker-compose
+$ git clone https://github.com/hbstarjason/spinnaker-local
+$ cd spinnaker-local
 
 # add k8s-v2-account
 # kubectl config current-contexts
