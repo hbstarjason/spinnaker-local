@@ -11,7 +11,7 @@ $ git clone https://github.com/hbstarjason/spinnaker-local
 $ cd spinnaker-local
 
 # add k8s-v2-account
-# kubectl config current-contexts
+# kubectl config current-context
 
 $ vi ./config/clouddriver.yml
 context: XXXXXX
